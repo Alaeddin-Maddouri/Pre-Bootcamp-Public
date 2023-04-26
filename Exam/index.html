@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sports News Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- the top page start here which divided to the scores and the nav bar -->
+        <div class="top-page">
+            <div id="scores">
+                <h1>Live Scores</h1>
+                <div>
+                    <div>SJC Ninjas - 314</div>
+                    <div>NS Pirates - 159</div>
+                </div>
+                <div>
+                    <div>CHI Samurai - 0</div>
+                    <div>TUL Wizards - 0</div>
+                </div>
+                <div>
+                    <div>BOS Hackers - 13</div>
+                    <div>TYO Youkai - 37</div>
+                </div>
+                <div>
+                    <div>BOI Knights - 5</div>
+                    <div>SEA Sea Lions - 11</div>
+                </div>
+            </div>
+            <div id="nav">
+                <div id="words">
+                    <h2>DSNN</h2>
+                    <h3>Football</h3>
+                    <h3>Basketball</h3>
+                    <h3>Baseball</h3>
+                    <h3>Soccer</h3>
+                    <h3>More...</h3>
+                </div>
+                <div id="pics">
+                    <img src="assets\search-light.png" alt="search-icon" id="icon1">
+                    <img src="assets\hamburger-light.png" alt="hamburger-icon" id="icon2">
+                    <img src="assets\user-circle-light.png" alt="user-icon" id="icon3">
+                </div>
+            </div>
+        </div>
+        <!-- the main content start here wich devided into tow classes left and right -->
+        <div class="main-content">
+            <div class="left">
+                <div id="top-stories">
+                    <h2>Top Stories</h2>
+                    <div>Ninjas up big in 5th</div>
+                    <div>Best sports cities</div>
+                    <div>Choi joins Hall of Fame</div>
+                    <div>Tournament underway</div>
+                    <div>Samurai at Wizards...</div>
+                </div>
+                <div id="signning">
+                    <h3>Customize your DSNN</h3>
+                    <div id="btn-holder">
+                        <button class="btn1">Sign In</button>
+                        <button class="btn2">Sign Up</button>
+                    </div>
+                </div>
+                <div id="subscribing">
+                    <h3>Never miss a play</h3>
+                    <button class="btn3" onclick="hide(this)">Subscribe</button>
+                </div>
+            </div>
+            <!-- the second class of the main content starts here -->
+            <div class="right">
+                <div class="header">
+                    <div><span>.</span>Live</div>
+                    <div> Ninjas Leading Pirates</div>
+                </div>
+                <div class="mid">
+                    <div id="team-ninjas">
+                        <img src="assets\sjc-ninjas.png" alt="ninjas-logo" id="blue-img">
+                        <div id="place1">San Jose</div>
+                        <div id="name1">Ninjas</div>
+                        <div id="matches1">(10W-3L)</div>
+                        <div id="ninjas-scores" onclick="score1()">314</div>
+                    </div>
+                    <div id="vs-timer">
+                        <div id="against">vs</div>
+                        <div>
+                            <p>0.13 remaining</p>
+                            <p>5th period</p>
+                        </div>
+                    </div>
+                    <div id="team-pirates">
+                        <img src="assets\ns-pirates.png" alt="pirates-logo" id="red-img">
+                        <div id="place2">Nova Scotia</div>
+                        <div id="name2">Pirates</div>
+                        <div id="matches2">(12W-2L)</div>
+                        <div id="pirates-scores" onclick="score2()">159</div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p>A conservative match between the two top-performing sides in the Central 
+                        League Division with a number 1 seed at stake... <a href="#">get live updates</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
