@@ -1,0 +1,34 @@
+button{
+    background-color: rgb(247, 244, 244);
+    color: aqua;
+    border: 2px solid aqua;
+    padding: 10px 40px;
+    text-align: center;
+    margin: 4px 2px;
+    font-size: 15px;
+    border-radius: 16px;
+}
+div button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: aqua;
+
+}
+div span button{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(5, 49, 192);
+    border: 2px solid black;
+    border-radius: 0%;
+    text-align: center;
+    box-shadow: 5px 5px black;
+}
+body{
+    margin-left: 70px;
+    margin-top: 50px;
+}
